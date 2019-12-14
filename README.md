@@ -59,6 +59,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 - [Common issues faced by beginners when using react](https://jscomplete.com/learn/react-beyond-basics/react-cfp)
 
+- [Babel playground](https://babeljs.io/repl)
+
 ### Renderers
 
 #### Table of Contents
