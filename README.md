@@ -57,7 +57,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ### Renderers
 
-## Table of Contents
+#### Table of Contents
 
 <!-- MarkdownTOC depth=4 -->
 
@@ -77,7 +77,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 <a name="web" />
 
-## Web (+ NW & Electron)
+#### Web (+ NW & Electron)
 
 * [react-dom](https://github.com/facebook/react/tree/master/packages/react-dom) - A declarative, efficient, and flexible JavaScript library for building user interfaces.
 * [react-tiny-dom](https://github.com/jiayihu/react-tiny-dom) - A minimal implementation of react-dom using react-reconciler
@@ -95,7 +95,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 <a name="desktop" />
 
-## Desktop
+#### Desktop
 
 * [proton-native](https://github.com/kusti8/proton-native) - A React environment for cross platform native desktop apps.
 * [stain](https://github.com/cztomsik/stain) - [beta] rapid GUI development using familiar technologies (fat-free electron).
@@ -105,14 +105,14 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 <a name="mobile" />
 
-## Mobile
+#### Mobile
 
 * [react-native](https://github.com/facebook/react-native) - A framework for building native apps with React.
 * [react-titanium](https://github.com/yuchi/react-titanium) - React custom renderer for Appcelerator® Titanium™ SDK.
 
 <a name="cli" />
 
-## Command Line Interface
+#### Command Line Interface
 
 * [react-blessed](https://github.com/Yomguithereal/react-blessed) - A react renderer for blessed.
 * [ink](https://github.com/vadimdemedes/ink) - React for interactive command-line apps.
@@ -120,7 +120,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 <a name="tv" />
 
-## Television
+#### Television
 
 * [react-tvml](https://github.com/ramitos/react-tvml) - React bindings to Apple's TVJS and TVML.
 * [React-Gibbon](http://techblog.netflix.com/2017/01/crafting-high-performance-tv-user.html) - React bindings to Netflix's custom Gibbon rendering layer on TV devices.
@@ -129,7 +129,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 <a name="hardware" />
 
-## Hardware
+#### Hardware
 
 * [react-hardware](https://github.com/iamdustan/react-hardware) - React Hardware enables you to build firmata-based hardware applications using React.
 * [react-dmx](https://github.com/alexanderson1993/react-dmx) - Use React components to control lights and devices with DMX channels.
@@ -137,14 +137,14 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 <a name="email" />
 
-## Email
+#### Email
 
 * [react-html-email](https://github.com/chromakode/react-html-email) - Create HTML email templates using React without dealing with archaic HTML elements.
 * [oy](https://github.com/revivek/oy) - Render HTML emails on the server with React.
 
 <a name="file" />
 
-## File
+#### File
 
 * [react-pdf](https://github.com/diegomura/react-pdf) - Create PDF files using React.
 * [redocx](https://github.com/nitin42/redocx) - Create word documents using React.
@@ -153,13 +153,13 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 <a name="music" />
 
-## Music
+#### Music
 
 * [wax](https://github.com/jamesseanwright/wax) - An experimental, JSX-compatible renderer for the Web Audio API.
 
 <a name="miscellaneous" />
 
-## Miscellaneous
+#### Miscellaneous
 
 * [noop-renderer](https://github.com/facebook/react/blob/master/src/renderers/noop/ReactNoop.js) - This is a renderer of React that doesn't have a render target output. It is useful to demonstrate the internals of the reconciler in isolation and for testing semantics of reconciliation separate from the host environment.
 * [react-ast](https://github.com/codejamninja/react-ast) - React AST is the ultimate meta programming tool that uses react to render abstract syntax trees. It can be used to build powerful code generators and babel plugins that are easy to read and can scale.
@@ -172,7 +172,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 <a name="learn" />
 
-## Learn
+#### Learn
 
 * [Building a Custom React Renderer](https://www.youtube.com/watch?v=CGpMlWVcHok) - "Building a Custom React Renderer | Sophie Alpert" in React Conf 2019.
 * [tiny-react-renderer](https://github.com/iamdustan/tiny-react-renderer) - Learn you a React Renderer for Great Good.
@@ -180,7 +180,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 * [⚛️👆Beginners guide to React Renderers. How to build your own renderer from scratch?](https://blog.atulr.com/react-custom-renderer-1/)
 * [Render React to Embedded LCD](https://github.com/doodlewind/react-ssd1306/blob/master/docs/tutorial.md) - Tutorial for building a React renderer that dynamically updates an OLED chip, based on the embeddable QuickJS intepreter, native C driver modules, and a HTML5 canvas emulator.
 
-## License
+#### License
 
 [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 
