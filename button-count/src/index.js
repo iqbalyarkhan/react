@@ -4,30 +4,35 @@ import './index.css';
 // import Button from './Button';
 import * as serviceWorker from './serviceWorker';
 
-function Button(){
-    const [numberOfClicks, updateNumberOfClicks] = useState(0);
-    const handleClick = () => updateNumberOfClicks(numberOfClicks + 1);
+function Button(props){
+    // const [numberOfClicks, updateNumberOfClicks] = useState(0);
+    // const handleClick = () => updateNumberOfClicks(numberOfClicks + 1);
     return (
         <div>
-            <button onClick={handleClick}>
-                {numberOfClicks}
+            <button onClick={props.counter}>
+                Click to increment counter below....
             </button>
         </div>
     )
 }
 
-function Display(){
+function Display(props){
     return(
-        <div>...
+        <div>
+
+            {props.message}
+
         </div>
     )
 }
 
 function App(){
+    const [numberOfClicks, updateNumberOfClicks] = useState(0);
+    const incrementCounter = () => updateNumberOfClicks(numberOfClicks + 1)
     return(
         <>
-            <Button/>
-            <Display/>
+            <Button counter={incrementCounter}/>
+            <Display message={numberOfClicks}/>
         </>
     )
 }
