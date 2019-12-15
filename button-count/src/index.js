@@ -9,8 +9,8 @@ function Button(props){
     // const handleClick = () => updateNumberOfClicks(numberOfClicks + 1);
     return (
         <div>
-            <button onClick={props.counter}>
-                Click to increment counter below....
+            <button onClick={ () => props.counter(props.incrementAmount)}>
+                Click to increment counter below by {props.incrementAmount}
             </button>
         </div>
     )
@@ -20,18 +20,25 @@ function Display(props){
     return(
         <div>
 
-            {props.message}
+            From Display: {props.message}
 
         </div>
     )
 }
 
 function App(){
+    //Generic variable to hold the amount to increment
+    // const incrementBy = 3;
     const [numberOfClicks, updateNumberOfClicks] = useState(0);
-    const incrementCounter = () => updateNumberOfClicks(numberOfClicks + 1)
+    const incrementCounter = (incrementValue) => updateNumberOfClicks(numberOfClicks + incrementValue);
     return(
         <>
-            <Button counter={incrementCounter}/>
+            <Button counter={incrementCounter} incrementAmount={1}/>
+            <Button counter={incrementCounter} incrementAmount={3}/>
+            <Button counter={incrementCounter} incrementAmount={5}/>
+            <Button counter={incrementCounter} incrementAmount={10}/>
+            <Button counter={incrementCounter} incrementAmount={20}/>
+            <Button counter={incrementCounter} incrementAmount={100}/>
             <Display message={numberOfClicks}/>
         </>
     )
