@@ -24,15 +24,15 @@ import './App.css';
 
 function Button(){
   const [numberOfClicks, updateNumberOfClicks] = useState(0);
+  const handleClick = () => updateNumberOfClicks(numberOfClicks + 1);
   return (
       <div>
-        <button onClick={
-          () => updateNumberOfClicks(numberOfClicks + 1)
-        }>
+        <button onClick={handleClick}>
           {numberOfClicks}
         </button>
       </div>
   )
 }
+
 
 export default Button;
