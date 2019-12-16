@@ -6,10 +6,10 @@ import * as serviceWorker from './serviceWorker';
 
 function Button(props){
     // const [numberOfClicks, updateNumberOfClicks] = useState(0);
-    // const handleClick = () => updateNumberOfClicks(numberOfClicks + 1);
+    const handleClick = () => props.counter(props.incrementAmount);
     return (
         <div>
-            <button onClick={ () => props.counter(props.incrementAmount)}>
+            <button onClick={handleClick}>
                 Click to increment counter below by {props.incrementAmount}
             </button>
         </div>
